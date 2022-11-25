@@ -29,7 +29,7 @@ body {
 }
 
 .logo {
-  background-image: url("../assets/phon.jpg");
+  background-image: url("/phon.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: scroll, fixed;
