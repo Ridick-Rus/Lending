@@ -78,7 +78,7 @@ body {
   padding: 5px;
   float: left;
   width: 250px;
-  height: 450px;
+  height: 500px;
   background-color: #D3D3D3;
   border: 2px solid #D3D3D3;
   border-radius: 1em;
@@ -111,32 +111,105 @@ body {
 }
 
 .user {
+  float: left;
+  width: 70%;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 18px;
   margin-bottom: 5px;
 }
 
+.user-image {
+  float: left;
+  width: 30%;
+}
+
+.data {
+  float: left;
+  text-align: left;
+  margin-left: 0.5em;
+}
+
+.comment {
+  margin-top: 0.5em;
+  float: left;
+}
+
+.user-header {
+  float: left;
+}
 .footer {
   padding-bottom: 0;
 }
 
 .footer .footer_headline {
   width: 100%;
-  padding: 0.5em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
   font-size: 24px;
   text-align: center;
   background-color: #D3D3D3;
 }
 
+.new-comment {
+  float: left;
+  width: 750px;
+  padding-left: 0.5em;
+  padding-top: 0.5em;
+  background-color: #D3D3D3;
+  margin-bottom: 1em;
+}
+
+.header-comment {
+  font-size: 24px;
+}
+
+.greetings {
+  font-size: 14px;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  text-align: left;
+}
+
+.form-info {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.user-name {
+  background-color: white;
+  width: 730px;
+  height: 35px;
+}
+
+.text-form {
+  background-color: white;
+  width: 730px;
+  height: 200px;
+  margin-bottom: 1em;
+}
 @media (max-width: 1514px) {
   .container {
     width: 50%;
   }
 }
 
+@media (max-width: 760px) {
+.new-comment{
+  width: 90%;
+}
+}
+
 @media (max-width: 1049px) {
   .container {
     width: 100%;
+  }
+
+  .user-name {
+    width: 90%;
+  }
+
+  .text-form {
+    width: 90%;
   }
 }
 
@@ -145,4 +218,7 @@ body {
     flex-direction: column;
   }
 
+  .reviews {
+    width: 100%;
+  }
 }
